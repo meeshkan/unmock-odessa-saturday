@@ -1,6 +1,9 @@
-test("2+2 equals 4", () => {
-    expect(2+2).toBe(4);
+describe("Test suit", () => {
+    test("2+2 equals 4", () => {
+        expect(2+2).toBe(4);
+    });
+
+    test("Array includes 0", () => {
+        expect([0,1,2]).toContain(0);
+    });
 });
-test("2+3 equals 3", () => {
-    expect(2+3).toBe(5);
-})
