@@ -1,4 +1,6 @@
 import add from "../src/yoni.add";
+import foo from "../src/yoni.network.call";
+
 
 describe('Yoni Goldberg Test', () => {
     test('When 2 & 2 are given, 4 is the result', () => {
@@ -12,4 +14,9 @@ describe('Yoni Goldberg Test', () => {
         //Assert
         expect(receivedResult).toBe(4);
     });
+
+test("my-api-works", async () => {
+    const res = await foo();
+    expect(Object.keys(res)).toEqual(['hello']);
+}) 
 });
