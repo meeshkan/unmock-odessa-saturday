@@ -1,0 +1,7 @@
+servers:
+- url: https://api.foo.com
+paths:
+  /getassets:
+    assets: my_assets
+  /hello:
+    hello: world
