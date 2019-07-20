@@ -1,0 +1,1 @@
+export default (a: number, n: number) => (a ** n);
