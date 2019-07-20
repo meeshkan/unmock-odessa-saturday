@@ -8,4 +8,4 @@ beforeAll(() => {
 test("my-api-works", async () => {
     const res = await fecthData();
     expect(Object.keys(res)).toEqual(['name']);
-};
+});
