@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export default async() =>{
 
-    const { data } = await axios('https://api.foo.bar/getFiles')
+    const { data } = await axios('https://api.foo.com/getassets')
     return data;
 };
 
