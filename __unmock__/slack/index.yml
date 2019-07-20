@@ -1,0 +1,5 @@
+servers:
+  - url: https://slackfoo.com
+paths:
+  /users:
+    name: Andrew
